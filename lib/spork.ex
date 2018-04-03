@@ -4,7 +4,7 @@ defmodule Spork do
 
   def start(_type, _args) do
     children = [
-      Plug.Adapters.Cowboy.child_spec(:http, Spork.Router, [], port: 8080)
+      Plug.Adapters.Cowboy.child_spec(:http, Spork.Router, [], port: 80)
     ]
 
     Logger.info("Started application")
