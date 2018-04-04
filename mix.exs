@@ -26,6 +26,7 @@ defmodule Spork.MixProject do
       {:plug, "~> 1.5"},
       {:poison, "~> 3.1"},
       {:porcelain, "~> 2.0"},
+      {:distillery, "~> 1.5"},
       {:mix_test_watch, "~> 0.5", only: :dev, runtime: false}
     ]
   end
